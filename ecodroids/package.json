@@ -1,0 +1,12 @@
+{
+  "name": "ecodroids",
+  "version": "1.0.0",
+  "description": "Digital solutions across India",
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/styles.css -o ./css/main.css --minify",
+    "watch:css": "tailwindcss -i ./css/styles.css -o ./css/main.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
