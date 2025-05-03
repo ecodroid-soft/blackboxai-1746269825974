@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://ecodroids.com/sitemaps/sitemap-main.xml</loc>
+		<lastmod>2025-05-02</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ecodroids.com/sitemaps/sitemap-services.xml</loc>
+		<lastmod>2025-05-02</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://ecodroids.com/sitemaps/sitemap-locations.xml</loc>
+		<lastmod>2025-05-02</lastmod>
+	</sitemap>
+</sitemapindex>
