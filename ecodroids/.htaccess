@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# If the requested URL is not a file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite to add .php extension
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+# Redirect index.php to root
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Disable directory browsing
+Options -Indexes
+
+# Custom error documents
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
